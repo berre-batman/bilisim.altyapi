@@ -1,0 +1,8 @@
+[Unit]
+Description=My service that runs odev.sh
+
+[Service]
+ExecStart=/bin/bash /path/to/odev.sh
+
+[Install]
+WantedBy=multi-user.target
